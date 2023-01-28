@@ -1,0 +1,165 @@
+
+ 
+ body{
+  margin: 0;
+ }
+ 
+ .navBar{
+  position: sticky;
+  top: 0;
+  background-color: rgba(221, 205, 150, 0.5);
+  padding-bottom: 1%;
+}
+
+.topNav{
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  height: 10vh;
+  
+
+  
+}
+
+.navBar a{
+  text-decoration: none;
+  font-weight: 800;
+  
+  
+}
+
+.topNav .logo a{
+  color: #111;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topNav .logo a span{
+  color: orange;
+}
+
+.topNav .navItems{
+  margin-right: 1%;
+}
+
+.topNav .navItems a{
+  margin-right: 1em;
+  color: #111;
+}
+
+.topNav .navItems a:hover{
+  color: orange;
+}
+
+#package_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan{
+  font-size: 2em;
+  padding-bottom: 3%;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slogan span{
+  color: orange;
+}
+
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+
+div {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+  }
+  
+  .danger {
+    background-color: #ddffdd;
+    border-left: 6px solid #f44336;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  .info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    display: flex;
+  }
+  
+  
+  .warning {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+    display: flex;
+  }
+  
+  img{
+      display: block;
+      height: 150px;
+      width: 250px;
+      margin: 15px;
+      border-radius: 10%;
+  }
+
+  .a{
+    width: 75px;
+    height: 150px;
+  }
+
+  section.footer{
+    background-color: #111;
+    margin-top: 5%;
+
+}
+.footer h1 span{
+    color: orange;
+    text-align: center;
+}
+.footer h1{
+    color: gray;
+    padding-top: 3%;
+    text-align:center ;
+}
+
+.footer h3{
+    color: #fff;
+    padding: 2% 0;
+    text-align: center;
+}
+
+
+
+button{
+    color: #fff;
+    padding: 2.5%;
+    background-image: linear-gradient(to right, orange ,rgb(243, 70, 70));
+    border-radius: 25px;
+    cursor: pointer;
+    border: transparent;
+    
+}
+
+
+
+button:hover{
+   background-image: linear-gradient(to left, orange ,rgb(243, 70, 70));
+}
+
+button a{
+   text-decoration: none;
+   color: #fff;
+}
+
+#btn{
+  display: flex;
+  justify-content: center;
+}
